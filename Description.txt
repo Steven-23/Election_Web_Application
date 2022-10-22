@@ -4,6 +4,9 @@ Role :
 - Admin (KPU)
 - User (Citizen)
 
+Feature:
+ - Dashboard
+
 Use case :
 User:
 - Dapat melakukan register
@@ -11,7 +14,6 @@ User:
 
 Admin:
 - Dapat mengenerate hasil voting
-
 
 S&K:
 - Setiap user hanya boleh memiliki 1 akun (NIK as ID)

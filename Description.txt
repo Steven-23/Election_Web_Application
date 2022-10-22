@@ -1,0 +1,18 @@
+Tema : Aplikasi Election
+
+Role :
+- Admin (KPU)
+- User (Citizen)
+
+Use case :
+User:
+- Dapat melakukan register
+- Dapat melakukan voting
+
+Admin:
+- Dapat mengenerate hasil voting
+
+
+S&K:
+- Setiap user hanya boleh memiliki 1 akun (NIK as ID)
+- Setiap user hanya dapat memilih satu candidate dan tidak bisa diganti setelah memilih

@@ -1,0 +1,66 @@
+*, *::before, *::after {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #181818;
+}
+
+.video{
+    margin: 20px 20px 20px 20px;
+    display: inline-flex;
+}
+
+.video-section{
+    width: 250px;
+    height: 250px;
+    margin-right: -20px;
+    margin-bottom: -30px;
+}
+
+.video-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail-image{
+    display: flex;
+}
+
+.video-bottom-section{
+    margin-top: 10px;
+    display: flex;
+}
+
+.channel-image{
+    border-radius: 50%;
+}
+
+.video-details{
+    margin-left: 10px;
+    flex-direction: column;
+    height: 100px;
+}
+
+.video-title{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.video-metadata{
+    color: #AAAAAA;
+}
+
+.video-channel-name{
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+.video-metadata, .video-channel-name{
+    margin-top: 5px;
+    font-size: 12px;
+}
